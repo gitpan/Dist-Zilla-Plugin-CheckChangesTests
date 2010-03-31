@@ -1,9 +1,9 @@
 NAME
-    Dist::Zilla::Plugin::CheckChangesTests - release tests for checking
+    Dist::Zilla::Plugin::CheckChangesTests - Release tests for checking
     changes
 
 VERSION
-    version 1.100700
+    version 1.100900
 
 SYNOPSIS
     In "dist.ini":
@@ -12,13 +12,31 @@ SYNOPSIS
 
 DESCRIPTION
     This is an extension of Dist::Zilla::Plugin::InlineFiles, providing the
-    following files
+    following file:
 
       xt/release/check-changes.t - a standard Test::CheckChanges test
 
 INSTALLATION
     See perlmodinstall for information and options on installing Perl
     modules.
+
+BUGS AND LIMITATIONS
+    No bugs have been reported.
+
+    Please report any bugs or feature requests through the web interface at
+    <http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Chec
+    kChangesTests>.
+
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you, or see
+    <http://search.cpan.org/dist/Dist-Zilla-Plugin-CheckChangesTests/>.
+
+    The development version lives at
+    <http://github.com/hanekomu/Dist-Zilla-Plugin-CheckChangesTests/>.
+    Instead of sending patches, please fork this project using the standard
+    git and github infrastructure.
 
 AUTHOR
       Marcel Gruenauer <marcel@cpan.org>

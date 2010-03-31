@@ -19,17 +19,19 @@ my %WriteMakefileArgs = (
                                                },
                        'AUTHOR' => 'Marcel Gruenauer <marcel@cpan.org>',
                        'BUILD_REQUIRES' => {},
-                       'ABSTRACT' => 'release tests for checking changes',
+                       'ABSTRACT' => 'Release tests for checking changes',
                        'EXE_FILES' => [],
-                       'VERSION' => '1.100700',
+                       'VERSION' => '1.100900',
                        'PREREQ_PM' => {
+                                        'Scalar::Util' => '0',
                                         'English' => '0',
-                                        'Test::More' => '0',
+                                        'Carp' => '0',
+                                        'Test::More' => '0.88',
                                         'Test::CheckChanges' => '0',
                                         'File::Find' => '0',
                                         'File::Temp' => '0',
-                                        'Dist::Zilla::Plugin::InlineFiles' => '0',
-                                        'Moose' => '0'
+                                        'Moose' => '0',
+                                        'Dist::Zilla::Plugin::InlineFiles' => '0'
                                       },
                        'LICENSE' => 'perl'
                      );

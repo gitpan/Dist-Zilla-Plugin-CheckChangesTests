@@ -3,16 +3,14 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::CheckChangesTests;
-our $VERSION = '1.100700';
-# ABSTRACT: release tests for checking changes
+our $VERSION = '1.100900';
+# ABSTRACT: Release tests for checking changes
 use Moose;
-use Test::CheckChanges;
-extends 'Dist::Zilla::Plugin::InlineFiles';
 
+extends 'Dist::Zilla::Plugin::InlineFiles';
 __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
-
 
 
 
@@ -20,11 +18,11 @@ no Moose;
 
 =head1 NAME
 
-Dist::Zilla::Plugin::CheckChangesTests - release tests for checking changes
+Dist::Zilla::Plugin::CheckChangesTests - Release tests for checking changes
 
 =head1 VERSION
 
-version 1.100700
+version 1.100900
 
 =head1 SYNOPSIS
 
@@ -35,7 +33,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/check-changes.t - a standard Test::CheckChanges test
 
@@ -45,6 +43,25 @@ __END__
 =head1 INSTALLATION
 
 See perlmodinstall for information and options on installing Perl modules.
+
+=head1 BUGS AND LIMITATIONS
+
+No bugs have been reported.
+
+Please report any bugs or feature requests through the web interface at
+L<http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-CheckChangesTests>.
+
+=head1 AVAILABILITY
+
+The latest version of this module is available from the Comprehensive Perl
+Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
+site near you, or see
+L<http://search.cpan.org/dist/Dist-Zilla-Plugin-CheckChangesTests/>.
+
+The development version lives at
+L<http://github.com/hanekomu/Dist-Zilla-Plugin-CheckChangesTests/>.
+Instead of sending patches, please fork this project using the standard git
+and github infrastructure.
 
 =head1 AUTHOR
 
